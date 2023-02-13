@@ -41,7 +41,7 @@ print()
 
 #prints out the dictionary post salary increase
 for k, v in employee_dict.items():
-    print(f"Manager Name: {k} Current Salary: ${round(float(v) * 1.10, 2):,}")
+    print(f"Manager Name: {k} New Salary: ${round(float(v) * 1.10, 2):,}")
 
 print()
 
